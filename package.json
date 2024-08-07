@@ -1,5 +1,5 @@
 {
-  "name": "general-frontend-boilerplate",
+  "name": "first",
   "description": "Project template based on Gulp task runner",
   "devDependencies": {
     "@babel/core": "^7.3.3",
@@ -33,5 +33,25 @@
     "run-sequence": "^2.2.1",
     "vinyl-paths": "^2.1.0"
   },
-  "dependencies": {}
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "data_wizard_pros"
+  },
+  "keywords": [
+    "data",
+    "analytics"
+  ],
+  "author": "wizard",
+  "license": "ISC",
+  "homepage": "https://github.com/wizardords/data_wizard_pros",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
 }
